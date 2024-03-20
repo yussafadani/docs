@@ -12,6 +12,9 @@ sudo yum <yang ingin diinstall>
 
 -- show list current directory saat ini
 ls
+ls -R -> lists all the files in the subdirectories
+ls -a -> shows all files, including hidden ones
+ls -lh -> converts sizes to readable formats, such as MB, GB, and TB.
 
 -- show current workfing directory path
 pwd
