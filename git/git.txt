@@ -7,6 +7,9 @@ git branch <namabranch>
 -- pindah branch
 git checkout -b <namabranch>
 
+-- add file sebelum commit
+git add . -> add semua file
+
 -- commit
 git commit -am "massage commit"
 
