@@ -46,7 +46,7 @@ cat <namafile>
 vim <file>
 
 -- masuk mode insert dalam file
-press "I"
+press "i"
 
 --exit VIM
 esc :q -> quit biasa
