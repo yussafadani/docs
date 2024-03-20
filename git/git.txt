@@ -39,3 +39,5 @@ sehingga commit dibatalkan tapi perubahan code masih tersimpan dilocal persis sa
 2. git reset --hard <versiongit>
 3. git push -f origin master -> force push ke remote untuk resetnya
 note : cara kerjanya command line seperti git soft, tetapi pengertian hard sendiri yaitu benar2 menghapus perubahan dan staging area, jadi HATI HATI!
+
+.
