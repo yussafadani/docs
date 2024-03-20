@@ -1,0 +1,54 @@
+--akses ssh siluet
+ssh siluet@<ip>
+
+--akses super user
+sudo
+
+--Runs programs in the current shell as another user
+su - <user>
+
+--untuk install
+sudo yum <yang ingin diinstall>
+
+-- show list current directory saat ini
+ls
+
+-- show current workfing directory path
+pwd
+
+-- change directory
+cd
+
+-- create new directory
+mkdir <nama folder>
+
+-- delete file
+rm <file>
+
+-- copy or file directory
+cp filename.txt /home/user/document -> copy file di current directory ke folder lain dengan spesifik path
+cp filename1.txt filename2.txt filename3.txt /home/user/document -> untuk multiple file
+cp filename1.txt filename2.txt -> copy file content didirectory yang sama
+
+--move or rename file
+mv filename.txt /home/username/Documents -> jika ingin move file maka sertakan tujuan path foldernya kemana
+mv old_filename.txt new_filename.txt -> jika ingin rename file
+
+--show content file
+cat <namafile>
+
+*****************VIM**********************
+
+--masuk ke dalam VIM
+vim <file>
+
+-- masuk mode insert dalam file
+press "I"
+
+--exit VIM
+esc :q -> quit biasa
+esc :q! -> force quit without saving
+esc :wq -> save file and quit
+esc :w -> save file without exit
+
+***************END VIM*******************
