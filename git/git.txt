@@ -1,0 +1,14 @@
+-- check status file yang berubah
+git status
+
+--membuat branch
+git branch <namabranch>
+
+-- pindah branch
+git checkout -b <namabranch>
+
+-- commit
+git commit -am "massage commit"
+
+-- push ke remote
+git push -u origin <namabranch>
