@@ -5,10 +5,15 @@ git init
 git status
 
 --membuat branch
-git branch <namabranch>
+git branch <namabranch> -> tetap dicurrent branch
+git checkout -b <namabranch> -> langsung pindah ke branch baru
 
 -- pindah branch
-git checkout -b <namabranch>
+git checkout <namabranch>
+
+-- delete branch
+git branch --delete <namabranch> -> hapus branch dilocal
+git push origin --delete <namabranch> -> hapus branch diremote
 
 -- add file sebelum commit
 git add . -> add semua file
