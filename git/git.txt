@@ -4,6 +4,9 @@ git init
 -- check status file yang berubah
 git status
 
+--list branch
+git branch
+
 --membuat branch
 git branch <namabranch> -> tetap dicurrent branch
 git checkout -b <namabranch> -> langsung pindah ke branch baru
