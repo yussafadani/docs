@@ -6,6 +6,8 @@ git status
 
 --list branch
 git branch
+git branch-r -> list remote branch
+git branch -a -> list all local branch and remote branch
 
 --membuat branch
 git branch <namabranch> -> tetap dicurrent branch
